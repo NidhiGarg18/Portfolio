@@ -1,0 +1,169 @@
+nav{
+    background-color: rgb(0,0,0,0.2);
+    /* padding: 10px; */
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    margin-left: 200px;
+    margin-right: 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+    
+    /* z-index: 1000; */
+    /* top: 0;
+    background:rgb(0,0,0,0.2);
+    margin-left: 200px;
+    margin-right: 100px;
+    border-radius: 50px; */
+
+} 
+ul{
+    list-style: none;
+    overflow:hidden;
+}
+a{
+    color:black;
+    padding:14px 10px;
+    text-decoration: none;
+    float:left;
+    margin-right: 100px;
+}
+a:hover{
+    color:lightyellow;
+}
+body{
+    scroll-behavior: smooth;
+   /* background:rgba(137, 43, 226, 0.292);*/
+   background: rgba(0, 0, 255, 0.45);
+}
+section{
+    margin-right: 150px;
+}
+
+#Home{
+    width: 420px;
+    height: 420px;
+    margin-top: 220px;
+    margin-left: auto;
+    padding: 10px;
+    box-shadow:  2px 5px 10px 10px black;
+}
+#Home img{
+    margin-top: 10px;
+    margin-left: 8px; 
+   
+}
+aside h2{
+    margin-top: -350px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+aside h1{
+    margin-top: -9px;
+    margin-left: 150px;
+    font-size: 35px;
+    margin-right: 150px;
+}
+p{
+    margin-left: 150px;
+    margin-right: 600px;
+}
+
+#Skills{
+    font-size: 35px;
+    margin-top: 650px;
+    text-align: center;
+    color: white;
+}
+#Skills img{
+    margin-top: 100px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 2px 5px 10px 10px black;
+}
+
+#Project{
+    font-size: 35px;
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+#Project img{
+    height: 400px;
+    margin-top: 80px;
+    margin-right: 80px;
+    /* justify-content: space-evenly; */
+    box-shadow: 2px 5px 10px 10px black;
+}
+#Project img:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+#Contact{
+    font-size: 35px;
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+}
+#Contact img{
+   margin-left: 10px;
+}
+#Education{
+    font-size: 35px;
+    margin-top: 350px;
+    text-align: center;
+    color: white;
+}
+
+
+#college {
+    margin-top: 50px;
+    margin-left:50px ;
+    margin-right: 150px;
+    float: left;
+    width: 25%;
+    height: 350px;
+    box-shadow: 2px 5px 10px 10px black
+}
+div:hover{
+    color:coral;
+}
+
+#class12 {
+    margin-top: 50px;
+    margin-right: 100px;
+    float: left;
+    width: 25%;
+    height: 350px;
+    box-shadow: 2px 5px 10px 10px black
+}
+
+#class10 {
+    margin-top: 50px;
+    float: right;
+    width: 25%;
+    height: 350px;
+    box-shadow: 2px 5px 10px 10px black;
+}
+p1{
+    font-size: 18px;
+    color: black;
+}
